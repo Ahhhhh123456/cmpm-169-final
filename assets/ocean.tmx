@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="64" tileheight="64" infinite="0" nextlayerid="3" nextobjectid="1">
+ <editorsettings>
+  <export target="Ocean.tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="fishSpritesheet@2" tilewidth="64" tileheight="64" tilecount="289" columns="17">
+  <image source="fishSpritesheet@2.png" width="1136" height="1136"/>
+  <tile id="178">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="179">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="15" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+179,180,179,180,179,180,179,180,179,180,179,180,179,180,179,
+196,196,196,196,196,196,196,196,196,196,196,196,196,196,196,
+196,196,196,196,196,196,196,196,196,196,196,196,196,197,197,
+197,197,197,197,197,197,197,197,197,197,197,197,197,197,197,
+196,196,196,196,196,196,196,196,196,196,196,196,196,196,196,
+197,197,197,197,197,197,197,197,197,197,197,197,197,197,197,
+196,197,196,196,196,196,196,196,196,196,196,196,196,196,197,
+196,197,196,197,197,197,197,197,197,197,197,197,197,197,197,
+196,196,196,196,196,196,196,196,196,196,196,196,196,196,196
+</data>
+ </layer>
+</map>
